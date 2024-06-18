@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap'); 
+
+.main-container {
+    text-align: center;
+}
+
+.app-heading{
+    font-family: "Danfo", serif;
+    font-weight: 800;
+    padding: 5px;
+    color: orange;
+}
+
+input {
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.board {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-col {
+    background-color: beige;
+    padding: 10px 0;
+}
+
+.doing-col {
+    background-color: lightblue;
+    padding: 10px 0;
+}
+
+.done-col {
+    background-color: lightgreen;
+    padding: 10px 0;
+}
+
+.todo {
+    width: 33%;
+    height: 400px;
+}
+
+.doing {
+    width: 33%;
+    height: 400px;
+    margin: 0 10px;
+}
+
+.done {
+    width: 33%;
+    height: 400px;
+}
+
+.task-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border: 0.7px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: grab;
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    margin: 10px 0;
+}
+
+.task-item:hover {
+    background-color: lightgray;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: purple;
+    border-radius: 50%;
+    cursor: pointer;
+}
